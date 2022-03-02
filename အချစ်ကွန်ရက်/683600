@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>အချစ်ကွန်ရက်</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta charset="UTF-8">
+        <style>
+@font-face {
+  font-family: pyidaungsu;
+  src: url(pds.ttf);
+}
+* { 
+	margin: 0; 
+}
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: pyidaungsu, sans-serif;
+	align-items: center;
+	justify-content: center;
+}
+.ep {
+	display: block;
+	background: #f87808;
+	width: 80%;
+	max-width: 25rem;
+	position: relative;
+	padding: 0.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0.4rem;
+	margin: 0.4rem 0;
+	font-weight: bold;
+}
+a:visited { 
+	color: #fff; 
+}
+.crd {
+	color: #f87808;
+	font-weight: bold;
+	margin-top: 0.4rem;
+	text-align: center;
+}
+.gridb {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 0.8rem;
+	max-width: 26rem;
+	width: calc(80% + 1rem);
+	grid-auto-rows: minmax(auto , auto );
+	margin: 0.4rem;
+}
+.gridb > a {
+	background: #1977f3;
+	padding: 0.2rem 0 0.5rem 0;
+	border-radius: 0.3rem;
+	color: #fff;
+	font-size: 0.9rem;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+}
+.g1 {
+	grid-column:1/4;
+	grid-row:1/2;
+}
+.g2 {
+	grid-column:4/6;
+	grid-row:1/2;
+}
+.g1:visited {
+	color: #fff;
+}
+.g2:visited {
+	color: #fff;
+}
+.fl {
+	width: 1rem;
+	display: inline-block;
+	margin-top: 0.05rem;
+	position: relative;
+	top: 0.25rem;
+	margin-right: 0.3rem;
+}
+        </style>
+    </head>
+    <body>
+      <img src="./acky.jpg" alt="" width="100%" />
+      <p class="crd" >LoiSamSip PLAY ‌ဆော့ဖ်ဝဲလ်မှ ကူးယူဖော်ပြပါသည်။</p> 
+      <div class="gridb">
+         <a class="g1" href="https://www.facebook.com/Loi-Sam-Sip-TV-Movie-Upload-110714317903606" ><img src="fl.png" class="fl" alt="" />Follow LoiSamSip PLAY</a>
+         <a class="g2" href="https://www.facebook.com/0x443" ><img src="fl.png" class="fl" alt="" />Follow me</a>
+      </div>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%201.mp4" class="ep" >အပိုင်း(၁)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%20၂.mp4" class="ep" >အပိုင်း(၂)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%203.mp4" class="ep" >အပိုင်း(၃)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%204.mp4" class="ep" >အပိုင်း(၄)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%205.mp4" class="ep" >အပိုင်း(၅)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%206.mp4" class="ep" >အပိုင်း(၆)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%207.mp4" class="ep" >အပိုင်း(၇)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/အပိုင္း%208.mp4" class="ep" >အပိုင်း(၈)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%209.mp4" class="ep" >အပိုင်း(၉)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2010.mp4" class="ep" >အပိုင်း(၁၀)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2011.mp4" class="ep" >အပိုင်း(၁၁)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2012.mp4" class="ep" >အပိုင်း(၁၂)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2013.mp4" class="ep" >အပိုင်း(၁၃)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2014.mp4" class="ep" >အပိုင်း(၁၄)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2015.mp4" class="ep" >အပိုင်း(၁၅)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2016.mp4" class="ep" >အပိုင်း(၁၆)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2017.mp4" class="ep" >အပိုင်း(၁၇)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2018.mp4" class="ep" >အပိုင်း(၁၈)</a>
+      <a href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2019.mp4" class="ep" >အပိုင်း(၁၉)</a>
+      <a style="margin-bottom: 2rem; " href="https://loisamsiptv.com/uploads/mp4/အချစ်ထောင်ချောက်/ep%2020.mp4" class="ep" >အပိုင်း(၂၀) ဇာတ်သိမ်းပိုင်း</a>
+    </body>
+</html>
